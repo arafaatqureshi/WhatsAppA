@@ -2,8 +2,10 @@ package com.example.whatsapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.viewpager.widget.ViewPager
 import androidx.viewpager2.widget.ViewPager2
+import com.example.librarya.helperMethod
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -19,7 +21,12 @@ class MainActivity : AppCompatActivity() {
         vp.adapter= Adapter
         tabs.setupWithViewPager(vp)
 
+     var helper :helperMethod =helperMethod()
+        var a = helper.name
+        if(a=="ali"){
+            Toast.makeText(this,"myLibrary",Toast.LENGTH_SHORT).show()
 
+        }
 
 
 
