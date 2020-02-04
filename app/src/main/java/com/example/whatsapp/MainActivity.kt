@@ -26,10 +26,6 @@ class MainActivity : AppCompatActivity() {
 
 //            Toast.makeText(this,"myLibrary",Toast.LENGTH_SHORT).show()
         println("\n \n \n"+a);
-        
-
-
-
 
     }
 }
