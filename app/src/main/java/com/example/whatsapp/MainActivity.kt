@@ -23,10 +23,10 @@ class MainActivity : AppCompatActivity() {
 
      var helper :helperMethod =helperMethod()
         var a = helper.name
-        if(a=="ali"){
-            Toast.makeText(this,"myLibrary",Toast.LENGTH_SHORT).show()
 
-        }
+//            Toast.makeText(this,"myLibrary",Toast.LENGTH_SHORT).show()
+        println("\n \n \n"+a);
+
 
 
 
